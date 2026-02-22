@@ -137,9 +137,7 @@ Software Engineering student at INES Ruhengeri
 
 GitHub: @domitnd
 
-Acknowledgments--
-INES Ruhengeri for the education and inspiration
+Acknowledgments----
 
-Sister Faith for the motivation behind the Faith project
-
+Deepseek AI & ChatGPT for Improvement and Idea sharing
 All future users of Isoko marketplace
