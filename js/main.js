@@ -5,7 +5,7 @@
   const body = document.body;
 
   function updateToggle() {
-    themeToggle.innerText = body.classList.contains('dark') ? '☀️ light mode' : '🌙 dark mode';
+    themeToggle.innerText = body.classList.contains('dark') ? 'light mode' : 'dark mode';
   }
 
   themeToggle.addEventListener('click', () => {
@@ -54,7 +54,7 @@
       const credit = parseInt(row.querySelector('.module-credit').value, 10);
       let mark = parseFloat(row.querySelector('.module-mark').value);
       if (isNaN(mark) || mark < 0 || mark > 20) {
-        gpaError.innerText = '❌ each mark must be 0–20';
+        gpaError.innerText = 'each mark must be 0–20';
         gpaDisplay.innerText = 'GPA: error';
         return;
       }
@@ -108,4 +108,5 @@
 
     loanDisplay.innerText = `RWF ${Math.round(payment).toLocaleString()} / month`;
   });
+
 })();
