@@ -1,4 +1,4 @@
-// ==== script.js (complete single file) ====
+// ==== all javascript ====
 (function() {
   // --- THEME TOGGLE ---
   const themeToggle = document.getElementById('themeToggle');
@@ -110,3 +110,4 @@
   });
 
 })();
+
